@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #3B0000;
+    color: #FFF6CD;
+    text-align: center;
+}
+
+.message-box {
+    width: 20rem;
+    margin: auto;
+}
+
+.trim-selection {
+    margin: 30px auto;
+}
+
+#notifications {
+    width: 100px;
+    height: 30px;
+}
+
+#text-area {
+    margin: 30px auto;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.fade {
+    animation: 2s linear fadeIn forwards;
+}
+
+@keyframes fadeIn {
+    0%,100% {opacity:0;}
+    50% {opacity:1;}
+}
